@@ -89,10 +89,11 @@ int main(){
             myStack.display();
         } else if(choice == 4){
             cout << "Exit" << endl;
-            myStack.exit();
             onGoing = false;
         } else {
             cout << "Invalid Choice" << endl;
         }
     }
+    
+    myStack.exit();
 }
